@@ -1,0 +1,114 @@
+* {
+    margin:0;
+    padding: 0;
+    font-family:'Poppins', sans-serif;
+}
+body {
+    background-color: #171717;
+    color:#f5f6f7;
+}
+header {
+    margin:20px 5em;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    background-color: #171717;
+    color:#f6f7f8;
+    cursor:pointer;
+}
+header span p {
+    font-size:5em;
+    
+}
+.slash {
+    width:4px;
+    height:4em;
+    background: rgb(28, 250, 28);
+    margin-left:3px;
+    margin-right: 3px;
+}
+.headerTwo
+{
+    color:red;
+}
+.one,.two {
+    display:flex;
+    gap:12px;
+    flex-direction:row;
+    overflow:scroll;
+    height:50vh;
+    margin:20px 20px;
+    overflow-y: hidden;
+    padding:30px 20px;
+}
+.first {
+    width:250px;
+    height:80%;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+    justify-content: center;
+    margin:20px 20px;
+    transition: 0.5s;
+    border-radius: 20px;
+
+}
+.first:hover {
+    transform:scale(1.2);
+    border: 2px solid orangered;
+    background-color: orangered;
+    
+}
+.firstOne:hover {
+    background-color: orangered;
+}
+.first img {
+    width:250px;
+    min-width:250px;
+    height:250px;
+    min-height:250px;
+    object-fit: cover;
+    border-radius:20px;
+}
+.firstOne {
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:-35px;
+    z-index: 1;
+    background-color:#1b1b32;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding:10px;
+    text-transform: uppercase;
+}
+#ff {
+    margin-left:40px;
+}
+@media (max-width:900px)
+{
+    header {
+        margin:20px 2em;         
+    }
+    header span p {
+        font-size:40px;
+        font-weight:800;
+        margin-top:30px;
+        
+    }
+    .slash {
+        width:3px;
+        height:2em;
+        margin-top:30px;
+    }
+    .first:hover {
+        transform:scale(1.2);
+        border: 2px solid orangered;
+        background-color: orangered;
+        
+    }
+    .firstOne:hover {
+        background-color: orangered;
+    }
+
+}
